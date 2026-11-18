@@ -1,0 +1,3 @@
+archive,total_files,CT,RTPLAN,RTSTRUCT,RTDOSE,unreadable_or_other,dose_based_usable_cases,blocker
+ECT-Nose.zip,124,122,1,1,0,0,0,No RTDOSE objects in uploaded archive; no source dose grid for real DVH/metrics
+ECT-Chestwall.zip,154,152,1,1,0,0,0,No RTDOSE objects in uploaded archive; no source dose grid for real DVH/metrics

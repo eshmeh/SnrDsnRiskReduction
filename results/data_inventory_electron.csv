@@ -1,0 +1,4 @@
+Modality,Source,Cases found,Format,Cases usable,Blockers
+Electron,.decimal ECT Chestwall + ECT Nose,2 RTPLAN examples inspected,276 CT images + 2 RTPLAN + 2 RTSTRUCT; 0 RTDOSE,0,"Both archives lack RTDOSE; cannot derive actual 3D dose, DVHs or D95/Dmean"
+Electron,Mentor,0 available,No data provided,0,Mentor cannot supply electron plans (team-reported)
+Electron,Other research leads,0 verified complete clinical electron plans,"Beam models, phantom simulations, or other modalities",0,No clinical electron CT+RTPLAN+RTSTRUCT+RTDOSE case demonstrated

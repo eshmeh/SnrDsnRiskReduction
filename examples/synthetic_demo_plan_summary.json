@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1",
+  "plan_id": "ELE-SYNTHETIC_DEMO-001",
+  "modality": "electron",
+  "source": "synthetic_demo",
+  "synthetic": true,
+  "site": "scalp",
+  "prescription": {
+    "dose": 10,
+    "unit": "Gy",
+    "fractions": null
+  },
+  "rbe": 1.0,
+  "structures": [
+    {
+      "name": "PTV_7000",
+      "original_name": "SyntheticDemoTarget",
+      "type": "target",
+      "volume_cc": null
+    }
+  ],
+  "dvh": [
+    {
+      "structure": "PTV_7000",
+      "dose_unit": "Gy",
+      "dose": [
+        0,
+        4,
+        8,
+        10,
+        12
+      ],
+      "volume_pct": [
+        100,
+        100,
+        95,
+        50,
+        0
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "structure": "PTV_7000",
+      "name": "D95",
+      "value": 8,
+      "unit": "Gy",
+      "pct_rx": 80.0
+    },
+    {
+      "structure": "PTV_7000",
+      "name": "Dmean",
+      "value": 9,
+      "unit": "Gy",
+      "pct_rx": 90.0
+    }
+  ],
+  "prediction": null,
+  "flags": [],
+  "quality": {
+    "status": "quarantined",
+    "issues": [
+      "Synthetic interface test only; no verified treatment plan",
+      "Illustrative DVH and metrics; no independently verified electron case"
+    ]
+  },
+  "provenance": {
+    "created": "2026-11-17",
+    "created_by": "SP07 Electron Lead converter",
+    "software": {
+      "electron_pipeline": "0.2"
+    },
+    "notes": "Toy, synthetic input used only to test the JSON exporter; no real patient data."
+  },
+  "electron": null
+}

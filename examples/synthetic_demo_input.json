@@ -1,0 +1,22 @@
+{
+  "plan_id": "ELE-SYNTHETIC_DEMO-001",
+  "modality": "electron",
+  "source": "synthetic_demo",
+  "synthetic": true,
+  "site": "scalp",
+  "prescription_Gy": 10,
+  "fractions": null,
+  "structures": [
+    {
+      "name": "PTV_7000",
+      "original_name": "SyntheticDemoTarget",
+      "type": "target",
+      "volume_cc": null,
+      "metrics_Gy": {"D95": 8, "Dmean": 9},
+      "dvh": [[0,100], [4,100], [8,95], [10,50], [12,0]]
+    }
+  ],
+  "electron": null,
+  "quality": {"status":"quarantined", "issues":["Synthetic interface test only; no verified treatment plan", "Illustrative DVH and metrics; no independently verified electron case"]},
+  "notes": "Toy, synthetic input used only to test the JSON exporter; no real patient data."
+}
